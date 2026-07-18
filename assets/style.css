@@ -115,6 +115,77 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Main page */
+
+.header-link {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.header-link a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.header-link a:hover {
+    text-decoration: underline;
+}
+
+.included {
+    margin-bottom: 2.5rem;
+}
+
+.included h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.included p {
+    color: var(--color-text-secondary);
+}
+
+/* How to Play page */
+
+.prose .dialogue {
+    margin-bottom: 1rem;
+    color: var(--color-text-secondary);
+    padding-left: 1.25rem;
+    border-left: 3px solid var(--color-border);
+}
+
+.prose details {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--color-border);
+    padding-top: 1.5rem;
+}
+
+.prose details summary {
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-accent);
+    user-select: none;
+    margin-bottom: 0.5rem;
+}
+
+.prose details summary:hover {
+    text-decoration: underline;
+}
+
+.prose details[open] summary {
+    margin-bottom: 1rem;
+}
+
+.prose ul {
+    margin: 0.75rem 0 1rem 1.5rem;
+    color: var(--color-text-secondary);
+}
+
+.prose ul li {
+    margin-bottom: 0.35rem;
+}
+
 /* Privacy policy page */
 .prose h1 {
     font-size: 1.875rem;
