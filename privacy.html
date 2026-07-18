@@ -3,82 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy—Celebrity: Get a Clue</title>
+    <title>Privacy Policy — Celebrity: Get a Clue</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <div class="container prose">
         <h1>Privacy Policy</h1>
-        <p class="meta">Whitmore Consortium &nbsp;&middot;&nbsp; Last updated: June 20, 2026</p>
+        <p class="meta">Whitmore Consortium &nbsp;&middot;&nbsp; Last updated: July 18, 2026</p>
 
         <h2>Overview</h2>
         <p>
             Celebrity: Get a Clue ("the app") is developed and published by Whitmore Consortium.
-            This policy describes how we handle information in connection with the app.
+            This policy describes what information is collected in connection with the app and how
+            it is used.
         </p>
 
-        <h2>Information We Collect</h2>
+        <h2>Device identifier</h2>
         <p>
-            The app does not directly collect personally identifiable information. The app uses
-            the following third-party services, each of which may collect information as described
-            in their own privacy policies:
+            The app generates a random identifier when first launched and stores it on your device.
+            This identifier is not linked to your name, email address, or any other personally
+            identifiable information. It is used to associate analytics events and crash reports
+            from the same device, and to attribute correction submissions (see below).
+        </p>
+
+        <h2>Analytics</h2>
+        <p>
+            The app uses Firebase Analytics to collect anonymous usage data, including app session
+            information, feature usage, and the device identifier described above. This data helps
+            us understand how the app is used and improve it over time. Firebase Analytics is
+            operated by Google; their privacy policy applies:
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+        </p>
+
+        <h2>Crash reports</h2>
+        <p>
+            The app uses Firebase Crashlytics to automatically collect crash reports and non-fatal
+            error information. Reports include device model, OS version, app version, and the
+            device identifier described above. This data is used solely to identify and fix bugs.
+            Crashlytics is operated by Google; their privacy policy applies:
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+        </p>
+
+        <h2>Correction submissions</h2>
+        <p>
+            The app allows you to voluntarily submit corrections to name or clue data. When you
+            submit a correction, the following information is sent to our servers and stored:
         </p>
         <ul>
-            <li>
-                <strong>Firebase Analytics</strong> (Google)—collects anonymized usage data
-                such as which screens are viewed and which features are used, to help us understand
-                how the app is being used.
-                <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
-                    Firebase Privacy Policy
-                </a>
-            </li>
-            <li>
-                <strong>Firebase Crashlytics</strong> (Google)—collects crash reports and
-                diagnostic data when the app encounters an error, to help us identify and fix bugs.
-                <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
-                    Firebase Privacy Policy
-                </a>
-            </li>
-            <li>
-                <strong>Firebase Performance Monitoring</strong> (Google)—collects performance
-                data such as app startup time and network response times, to help us identify
-                and fix performance issues.
-                <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
-                    Firebase Privacy Policy
-                </a>
-            </li>
-            <li>
-                <strong>Firebase Remote Config</strong> (Google)—used to deliver configuration
-                updates to the app without requiring an app update. No personal data is collected
-                through this service.
-                <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
-                    Firebase Privacy Policy
-                </a>
-            </li>
+            <li>The name and clue text you are correcting</li>
+            <li>The type(s) of correction selected</li>
+            <li>Any optional comment you choose to include</li>
+            <li>Your device identifier</li>
+            <li>App version and submission timestamp</li>
         </ul>
+        <p>
+            Correction submissions are stored in Firebase Cloud Firestore and used only to review
+            and act on reported issues. We do not use them for any other purpose.
+        </p>
 
-        <h2>In-App Purchases</h2>
+        <h2>In-app purchases</h2>
         <p>
             The app offers optional in-app purchases processed through Google Play Billing.
             Purchase transactions are handled entirely by Google. We do not receive or store
             your payment information. Google's privacy policy applies to all payment processing:
-            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-                policies.google.com/privacy
-            </a>.
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
         </p>
 
-        <h2>Data Sharing</h2>
+        <h2>Data sharing</h2>
         <p>
-            We do not sell, trade, or otherwise transfer your personal information to third parties.
+            We do not sell or transfer your information to third parties, except as necessary to
+            operate the services described above (Firebase, Google Play).
         </p>
 
-        <h2>Children's Privacy</h2>
+        <h2>Data retention</h2>
+        <p>
+            Analytics and crash report data is retained according to Firebase's default retention
+            settings. Correction submissions are retained indefinitely for reference, but may be
+            deleted upon request.
+        </p>
+
+        <h2>Children's privacy</h2>
         <p>
             The app is not directed at children under 13. We do not knowingly collect personal
             information from children under 13.
         </p>
 
-        <h2>Changes to This Policy</h2>
+        <h2>Changes to this policy</h2>
         <p>
             We may update this privacy policy from time to time. The "Last updated" date at the
             top of this page reflects when the policy was last revised. Continued use of the app
@@ -96,6 +106,8 @@
                 <a href="index.html">&larr; Back to Celebrity: Get a Clue</a>
                 &nbsp;&middot;&nbsp;
                 &copy; 2026 <a href="https://whitmoreconsortium.com">Whitmore Consortium</a>
+                &nbsp;&middot;&nbsp;
+                <a href="mailto:contact@whitmoreconsortium.com">Contact</a>
             </p>
         </footer>
     </div>
